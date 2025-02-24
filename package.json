@@ -1,0 +1,16 @@
+{
+  "name": "twitter-location-fetcher",
+  "version": "1.0.0",
+  "description": "Fetches coordinates from Twitter posts and sends them to a webhook.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.7.0",
+    "openai": "^3.3.0"
+  },
+  "author": "Can Çalışkan",
+  "license": "MIT"
+}
